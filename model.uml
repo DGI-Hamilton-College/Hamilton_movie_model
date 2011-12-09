@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_DzPR4faREeCQn-PTUVPdIA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_a4NCUPaREeCQn-PTUVPdIA" name="Still" clientDependency="__smXMPaREeCQn-PTUVPdIA _yG26QPaREeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_mLSOMPaTEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_RUIDAPacEeCQn-PTUVPdIA" name="Image" type="_WKL9kPadEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_3ijhAPjNEeCQn-PTUVPdIA" name="benshiStill" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cD5ZYPaREeCQn-PTUVPdIA" name="Movie" clientDependency="_QJsssPabEeCQn-PTUVPdIA _A2QWcPjNEeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_nYHCIPadEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_q_A3YPadEeCQn-PTUVPdIA" name="OPAC" type="_K5yJYPpYEeC6i7LM79buJA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fzfQkPaREeCQn-PTUVPdIA" name="EnglishJapaneseTranscript" clientDependency="_urMrsPaREeCQn-PTUVPdIA _nL0jIfs-EeCg8fqDDrDa_A">
+    <ownedAttribute xmi:id="_rWGtQPaTEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_pmZUEPacEeCQn-PTUVPdIA" name="Transcript" type="_GlXaQPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_3-gdMPjNEeCQn-PTUVPdIA" name="EnglishJapaneseTranscript" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_xU5JIPpzEeC6i7LM79buJA" name="TimeSyncedTranscript" type="_AwZ58PvqEeCg8fqDDrDa_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_urMrsPaREeCQn-PTUVPdIA" name="isTranscriptOf" supplier="_ej1CcPmlEeCK8sOrLJzimA" client="_fzfQkPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_yG26QPaREeCQn-PTUVPdIA" name="isStillOf" supplier="_ZH3tIPaREeCQn-PTUVPdIA" client="_a4NCUPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_10ebgPaREeCQn-PTUVPdIA" name="isClipOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_ZH3tIPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="__smXMPaREeCQn-PTUVPdIA" name="isStillOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_a4NCUPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_IqopMPaSEeCQn-PTUVPdIA" name="MODS" clientDependency="_tXRGsPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_vGAJoPaXEeCQn-PTUVPdIA" name="MOV" clientDependency="_ubAboPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z5jkkPaYEeCQn-PTUVPdIA" name="OPAC" clientDependency="_apPVEPaYEeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_GsscMPaaEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_RgkOcPaaEeCQn-PTUVPdIA" name="OPAC"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_apPVEPaYEeCQn-PTUVPdIA" name="isExternalRepresentationOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_Z5jkkPaYEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gOCvgPaaEeCQn-PTUVPdIA" name="Benshi" clientDependency="_VFmmAPabEeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_qQLGUPabEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_R1nmgPacEeCQn-PTUVPdIA" name="BENSHI" type="_MC7PIPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_7Qt00PjNEeCQn-PTUVPdIA" name="benshiRecording" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kwni0PaaEeCQn-PTUVPdIA" name="Essay" clientDependency="_ZN7GQPabEeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_qZ3N0PabEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_clqosPacEeCQn-PTUVPdIA" name="Essay" type="_KbnTEPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_7b2t0PjNEeCQn-PTUVPdIA" name="benshiEssay" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qKIlMPaaEeCQn-PTUVPdIA" name="Presentation" clientDependency="_vjkIAPaaEeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_pXt0UPabEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_ftvz8PacEeCQn-PTUVPdIA" name="Presentation" type="_Ho1CYPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_7jQWUPjNEeCQn-PTUVPdIA" name="benshiPresentation" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_vjkIAPaaEeCQn-PTUVPdIA" name="isPresentationOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_qKIlMPaaEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IPt4sPabEeCQn-PTUVPdIA" name="Hamilton:JapaneseSilentFilmCollection" clientDependency="_RxGIUPabEeCQn-PTUVPdIA _u1hUwPpUEeC6i7LM79buJA">
+    <ownedAttribute xmi:id="_qG_jIQSnEeGu9qiuC3ajGw" name="COLLECTION_POLICY" type="_3EPcsASnEeGu9qiuC3ajGw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JD8K8PabEeCQn-PTUVPdIA" name="islandora:root"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_QJsssPabEeCQn-PTUVPdIA" name="isMemberOf" supplier="_IPt4sPabEeCQn-PTUVPdIA" client="_cD5ZYPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_RxGIUPabEeCQn-PTUVPdIA" name="isMemberOf" supplier="_JD8K8PabEeCQn-PTUVPdIA" client="_IPt4sPabEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_VFmmAPabEeCQn-PTUVPdIA" name="isBenshiOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_gOCvgPaaEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ZN7GQPabEeCQn-PTUVPdIA" name="isEssayOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_kwni0PaaEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_GlXaQPacEeCQn-PTUVPdIA" name="PDF" clientDependency="_T-T6YPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Ho1CYPacEeCQn-PTUVPdIA" name="PPTX" clientDependency="_nUed0PpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_KbnTEPacEeCQn-PTUVPdIA" name="DOCX" clientDependency="_p7PEsPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_MC7PIPacEeCQn-PTUVPdIA" name="MP3" clientDependency="_ow2VMPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_WKL9kPadEeCQn-PTUVPdIA" name="PNG" clientDependency="_sKcHMPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_bPJzQPjBEeCQn-PTUVPdIA" name="RELS-EXT" clientDependency="_JpUcgPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4AsD8PjMEeCQn-PTUVPdIA" name="islandora:benshiMovie" clientDependency="_Z8kI4fpUEeC6i7LM79buJA _sm6MUP8vEeCtLqg10sZZMg">
+    <ownedAttribute xmi:id="_Xsi8QPjOEeCQn-PTUVPdIA" name="ISLANDORACM" type="_B1CoAPjPEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_f7KScf8vEeCtLqg10sZZMg" name="hasModel"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_A2QWcPjNEeCQn-PTUVPdIA" name="hasModel" supplier="_4AsD8PjMEeCQn-PTUVPdIA" client="_cD5ZYPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_RDyVAPjNEeCQn-PTUVPdIA" name="hasModel" clientDependency="_Vtww0PjNEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Vtww0PjNEeCQn-PTUVPdIA" name="inRELS-EXT" supplier="_bPJzQPjBEeCQn-PTUVPdIA" client="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZH3tIPaREeCQn-PTUVPdIA" name="Clip" clientDependency="_10ebgPaREeCQn-PTUVPdIA">
+    <ownedAttribute xmi:id="_TJjCoPaTEeCQn-PTUVPdIA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_zZVAAPaXEeCQn-PTUVPdIA" name="HIGHRES" type="_vGAJoPaXEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_E58-IPaYEeCQn-PTUVPdIA" name="LOWRES" type="_vGAJoPaXEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_diknYPjBEeCQn-PTUVPdIA" name="ClipNumber" type="_bPJzQPjBEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_h9v7wPjNEeCQn-PTUVPdIA" name="benshiClip" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_B1CoAPjPEeCQn-PTUVPdIA" name="ISLANDORACM" clientDependency="_rNogsPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GZiRofj1EeCWae-sn0BczA" name="Narrator" clientDependency="_I_F-oPj1EeCWae-sn0BczA">
+    <ownedAttribute xmi:id="_Ujw7sPj1EeCWae-sn0BczA" name="BIO" type="_KbnTEPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_fkoBEPj1EeCWae-sn0BczA" name="BIO" type="_GlXaQPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_l0wiYPj1EeCWae-sn0BczA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_bBH-cPmqEeCK8sOrLJzimA" name="benshiNarrator" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_I_F-oPj1EeCWae-sn0BczA" name="isNarratorOf" supplier="_gOCvgPaaEeCQn-PTUVPdIA" client="_GZiRofj1EeCWae-sn0BczA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ej1CcPmlEeCK8sOrLJzimA" name="ClipWithSubs" clientDependency="_5g33sPmlEeCK8sOrLJzimA _9-PjEPvjEeCg8fqDDrDa_A">
+    <ownedAttribute xmi:id="_Hnnv8PmmEeCK8sOrLJzimA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_JgeH8PmmEeCK8sOrLJzimA" name="HIGHRES" type="_vGAJoPaXEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_KzsqYPmmEeCK8sOrLJzimA" name="LOWRES" type="_vGAJoPaXEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_mNMY0PmrEeCK8sOrLJzimA" name="benshiClipSubbed" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_5g33sPmlEeCK8sOrLJzimA" name="isSubOf" supplier="_ZH3tIPaREeCQn-PTUVPdIA" client="_ej1CcPmlEeCK8sOrLJzimA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Z8kI4fpUEeC6i7LM79buJA" name="isMemberOf" supplier="_JD8K8PabEeCQn-PTUVPdIA" client="_4AsD8PjMEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mtdBcPpUEeC6i7LM79buJA" name="islandora:collectionCModel"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_u1hUwPpUEeC6i7LM79buJA" name="hasModel" supplier="_mtdBcPpUEeC6i7LM79buJA" client="_IPt4sPabEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="__NhzEPpWEeC6i7LM79buJA" name="Manged_Datastream" clientDependency="_JQ448PpYEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_JpUcgPpXEeC6i7LM79buJA" name="is_a" supplier="_rcQgoPpZEeC6i7LM79buJA" client="_bPJzQPjBEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_T-T6YPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_GlXaQPacEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nUed0PpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_Ho1CYPacEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ow2VMPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_MC7PIPacEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_p7PEsPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_KbnTEPacEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_rNogsPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_B1CoAPjPEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_sKcHMPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_WKL9kPadEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tXRGsPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_IqopMPaSEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ubAboPpXEeC6i7LM79buJA" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_vGAJoPaXEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_3hp3EPpXEeC6i7LM79buJA" name="Datastream"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_9-KngPpXEeC6i7LM79buJA" name="Redirect_Datastream" clientDependency="_FZMOoPpYEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FZMOoPpYEeC6i7LM79buJA" name="subType" supplier="_3hp3EPpXEeC6i7LM79buJA" client="_9-KngPpXEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_JQ448PpYEeC6i7LM79buJA" name="subType" supplier="_3hp3EPpXEeC6i7LM79buJA" client="__NhzEPpWEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_K5yJYPpYEeC6i7LM79buJA" name="OPAC" clientDependency="_Ox0x8PpYEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Ox0x8PpYEeC6i7LM79buJA" name="is_a" supplier="_9-KngPpXEeC6i7LM79buJA" client="_K5yJYPpYEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jKoosPpZEeC6i7LM79buJA" name="subType" supplier="_3hp3EPpXEeC6i7LM79buJA" client="_rcQgoPpZEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_rcQgoPpZEeC6i7LM79buJA" name="Inline_XML_Datastream" clientDependency="_jKoosPpZEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GQSacPpzEeC6i7LM79buJA" name="EnglishTranscript" clientDependency="_jNRuMPpzEeC6i7LM79buJA _ecpfoPtWEeCg8fqDDrDa_A">
+    <ownedAttribute xmi:id="_OUaB4PpzEeC6i7LM79buJA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_XBGsQPpzEeC6i7LM79buJA" name="Transcript" type="_GlXaQPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_eS3psPpzEeC6i7LM79buJA" name="EnglishTranscript" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JImrYPpzEeC6i7LM79buJA" name="JapaneseTranscript" clientDependency="_lbocIPpzEeC6i7LM79buJA _hQF3oPtWEeCg8fqDDrDa_A">
+    <ownedAttribute xmi:id="_OgTI0PpzEeC6i7LM79buJA" name="MODS" type="_IqopMPaSEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_ZFT_sPpzEeC6i7LM79buJA" name="Transcript" type="_GlXaQPacEeCQn-PTUVPdIA"/>
+    <ownedAttribute xmi:id="_enTooPpzEeC6i7LM79buJA" name="JapaneseTranscript" type="_RDyVAPjNEeCQn-PTUVPdIA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_jNRuMPpzEeC6i7LM79buJA" name="isTranscriptOf" supplier="_ej1CcPmlEeCK8sOrLJzimA" client="_GQSacPpzEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_lbocIPpzEeC6i7LM79buJA" name="isTranscriptOf" supplier="_ej1CcPmlEeCK8sOrLJzimA" client="_JImrYPpzEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nL0jIfs-EeCg8fqDDrDa_A" name="isTranscriptOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_fzfQkPaREeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ecpfoPtWEeCg8fqDDrDa_A" name="isTranscriptOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_GQSacPpzEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_hQF3oPtWEeCg8fqDDrDa_A" name="isTranscriptOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_JImrYPpzEeC6i7LM79buJA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_9-PjEPvjEeCg8fqDDrDa_A" name="isClipOf" supplier="_cD5ZYPaREeCQn-PTUVPdIA" client="_ej1CcPmlEeCK8sOrLJzimA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_AwZ58PvqEeCg8fqDDrDa_A" name="popcorn" clientDependency="_DsvvQPvqEeCg8fqDDrDa_A"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_DsvvQPvqEeCg8fqDDrDa_A" name="is_a" supplier="__NhzEPpWEeC6i7LM79buJA" client="_AwZ58PvqEeCg8fqDDrDa_A"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kxquYP8vEeCtLqg10sZZMg" name="fedora-system:ContentModel-3.0"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_sm6MUP8vEeCtLqg10sZZMg" name="hasModel" supplier="_kxquYP8vEeCtLqg10sZZMg" client="_4AsD8PjMEeCQn-PTUVPdIA"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_3EPcsASnEeGu9qiuC3ajGw" name="COLLECTION_POLICY" clientDependency="_9Z4wIASnEeGu9qiuC3ajGw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_9Z4wIASnEeGu9qiuC3ajGw" name="is_a" supplier="_rcQgoPpZEeC6i7LM79buJA" client="_3EPcsASnEeGu9qiuC3ajGw"/>
+</uml:Model>
